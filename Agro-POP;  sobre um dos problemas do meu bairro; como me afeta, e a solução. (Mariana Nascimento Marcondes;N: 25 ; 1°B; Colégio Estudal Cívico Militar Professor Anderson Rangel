@@ -1,0 +1,222 @@
+<html>
+<head>
+ <style>
+*{
+		margin: 0;
+		padding: 0;
+	}
+
+	body{
+		background-color: #ddd;
+		font-family: 'Roboto Condensed';
+	}
+
+	.nav_tabs{
+		width: 600px;
+		height: 400px;
+		margin: 100px auto;
+		background-color: #fff;
+		position: relative;
+	}
+
+	.nav_tabs ul{
+		list-style: none;
+	}
+
+	.nav_tabs ul li{
+		float: left;
+	}
+
+	.tab_label{
+		display: block;
+		width: 100px;
+		background-color: #363b48;
+		padding: 25px;
+		font-size: 20px;
+		color:#fff;
+		cursor: pointer;
+		text-align: center;
+	}
+
+
+	.nav_tabs .rd_tab { 
+	display:none;
+	position: absolute;
+}
+
+.nav_tabs .rd_tab:checked ~ label { 
+	background-color: #e54e43;
+	color:#fff;}
+
+.tab-content{
+	border-top: solid 5px #e54e43;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	height: 320px;
+	width: 600px;
+	left: 0;	
+}
+
+.rd_tab:checked ~ .tab-content{
+	display: block;
+}
+.tab-content h2{
+	padding: 10px;
+	color: #87d3b7;
+}
+.tab-content article{
+	padding: 10px;
+	color: #555;
+}
+ </style>
+</head>
+<body>
+<nav class="nav_tabs">
+    <ul>
+        <li>
+            <input type="radio" id="tab1" class="rd_tab" name="tabs" checked>
+            <label for="tab1" class="tab_label"> Sobre o problema</label>
+            <div class="tab-content">
+                
+                <article>
+                    <head> <h1> <font color="Salt Box">  O problema  </h1>
+ <style>
+body {
+	background-color: #FFB4A2
+	}
+	h1 {
+		text-align: center;
+	p
+     }
+    
+	   body {
+    	font-size: 12px;
+    p
+      }
+ </style>
+</head>
+<body>
+	<ul> <h2> Um dos problema do meu bairro; 
+é na área da Saúde: </h2> </ul>
+<ul> <p> As poucas Unidades de Saúde é um dos principais motivos dentro desse tópico, que dificulta
+ a vida da população. </ul>
+ Causando Transtornos; dentre eles:
+<li>  ( 1 ) Profissionais desqualificados </li>
+<br>
+<li>   ( 2 ) Falta de médicos </li>
+<br>
+<li>   ( 3 ) Longo tempo de espera  </li>
+<br>
+<li>   ( 4 ) Falta de Leitos </li>
+<br>
+<li>   ( 5 ) Atendimento pouco humanizado </li>
+<br>
+<li>   ( 6 ) Escasso atendimento em casos de emergência </li>
+<br>
+ <li>  ( 7 ) Infraestrutura mal-feita </li>
+ <br>
+ <br>
+</body>
+</html>
+                </article>
+            </div>
+        </li>
+        <li>
+            <input type="radio" name="tabs" class="rd_tab" id="tab2">
+            <label for="tab2" class="tab_label">Como me afeta?</label>
+            <div class="tab-content">
+                <article>
+           <html>
+<head> <h1> <font color="Salt Box">  Como afeta minha vida? </h1>
+ <style>
+body {
+	background-color: #FFB4A2
+	}
+	h1 {
+		text-align: center;
+	p
+     }
+    
+	   body {
+    	font-size: 12px;
+    p
+      }
+ </style>
+ </head>
+ <body>
+ 	<ul> <h2> Esse problema é impactante no nosso cotidiano: </h2> </ul>
+ <p> Nos causa a dificultade em chegar a diagnósticos, perca de tempo na fila de espera por atendimento,
+ irritação com o mal atendimento, insatisfação após o atendimento inadequado; a falta de profissionais qualificados, 
+ falta de atendimento, infraestrutura mal feita causando a falta de leitos, e reformas constantes </p>
+ </body>
+</html>
+                </article>
+            </div>
+        </li>
+        <li>
+            <input type="radio" name="tabs" class="rd_tab" id="tab3">
+            <label for="tab3" class="tab_label">A solução pro Problema </label>
+            <div class="tab-content">
+                <article>
+                <html>
+<head> <h1> <font color="Salt Box">  A Solução </h1>
+ <style>
+body {
+	background-color: #FFB4A2
+	}
+	h1 {
+		text-align: center;
+	p
+     }
+   
+	   body {
+    	font-size: 12px;
+    p
+      }
+ </style>
+</head>
+<body>
+	<ul> <h2> Minha idéia de solução para o problema: </h2> </ul>
+	<li> <p> ( 1 ) contratação de profissionais qualificados e aplicados na área .</p> </li>
+	<li> <p> ( 2 ) Direcionar maior quantidade verbas públicas a construção de novos hospitais e postos de saúde gerando mais empregos </p> </li>
+<li> <p> ( 3 ) Dar treinamento para os profissionais realizarem um atendimento correto </p> </li>
+<li> <p> ( 4 ) Com a contratação de novos funcionários não haverá uma longa espera, o atendimento será agilado </li> </p>
+<li> <p> ( 5 ) Com o investimento do governo direcionado a saúde será possível uma melhor infraestrutura; com mais leitos. </li> </p>
+<br>
+                </article>
+            </div>
+        </li>
+               <li>
+            <input type="radio" name="tabs" class="rd_tab" id="tab4">
+            <label for="tab4" class="tab_label"> Minhas informações</label>
+            <div class="tab-content">
+                <article>
+                       <html>
+<head> <h1> <font color="Salt Box">  Informações </h1>
+ <style>
+body {
+	background-color: #FFB4A2
+	}
+	h1 {
+		text-align: center;
+	p
+     }
+    
+	   body {
+    	font-size: 12px;
+    p
+      }
+ </style>
+ </head>
+ <body>
+ 	<ul> <h2> Mariana Nascimento Marcondes / N: 25 / 1°B / Colégio Cívico Militar Professor Anderson Rangel </h2> </ul>
+ </body>
+</html>
+                </article>
+            </div>
+        </li>
+    </ul>
+</nav>
+</body>
+</html>
